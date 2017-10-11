@@ -10,7 +10,7 @@ print("Setting startup options")
 # set demangled names options to show names
 SetCharPrm(INF_DEMNAMES, DEMNAM_NAME)
 # show the address next to each command
-SetCharPrm(INF_SHOWPREF, 1)
+# SetCharPrm(INF_SHOWPREF, 1)
 print("Finished setting options")
 
 currentEA = FirstSeg()
